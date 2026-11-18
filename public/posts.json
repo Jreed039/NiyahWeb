@@ -1,0 +1,39 @@
+[
+{
+"id": "1",
+"user": {
+"username": "niyuncut",
+"image": "/images/8.jpeg"
+},
+"comments": " Oh wow, that's so cool! ",
+"likes": 7,
+"image": "/images/8.jpeg",
+"description": "I put together a 500 piece puzzle with my friends, it was super fun!",
+"created": "3 hrs ago"
+},
+{
+"id": "2",
+"user": {
+"username": "niyahpooh765",
+"image": "/images/6.jpeg"
+},
+"comments": " I've always wanted to go there, it looks nice. ",
+"likes": 10,
+"image": "/images/6.jpeg",
+"description": "For spring break I took a trip with my friends to Florida and we went to Disney World.",
+"created": "1 hr ago"
+},
+{
+"id": "3",
+"user": {
+"username": "janiyahareed",
+"image": "/images/7.jpeg"
+},
+"comments": " That looks super good, I'll have to check this restaurant out. ",
+"likes": 20,
+"image": "/images/7.jpeg",
+"description": "I had lobster pasta during spring break and it was delicious, I would try it again.",
+"created": "1 sec ago"
+}
+]
+

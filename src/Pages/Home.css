@@ -1,0 +1,27 @@
+#add-post-btn {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+    /* better positioning than margin-left */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    font-weight: bold;
+    color: white;
+    background-color: rgb(74, 23, 23);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+
+    border: none;
+}
+
+#add-post-btn:hover {
+    background-color: rgb(29, 136, 31);
+}

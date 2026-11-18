@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* MAIN CONTAINER */
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* EACH POST */
+.post-form {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+/* POST CARD */
+.post {
+    width: 100%;
+    border-radius: 12px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+.post-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+/* USER SECTION */
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* USERNAME */
+.username {
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* COMMENTS */
+.comments-section {
+    padding: 10px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.comment img {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+}
+
+/* ADD COMMENT */
+.add-comment {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+/* BUTTON */
+.add-comment button {
+    color: white;
+    background-color: rgb(74, 23, 23);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-comment button:hover {
+    background-color: rgb(29, 136, 31);
+}
+
+/* DATE */
+.post-created {
+    font-size: xx-small;
+}
